@@ -21,6 +21,23 @@ int main()
 	else 
 		cout << "normal" << endl;
 
+	system("cls");
+
+	// making different game 
+
+	int HostNumber, GuessNumber;
+	cout << "Host: ";
+	cin >> HostNumber;
+	system("cls");
+	cout << "Guess";
+	cin >> GuessNumber;
+
+
+	if (HostNumber == GuessNumber)
+		cout << "currect!";
+	else
+		cout << "failed!";
+
 
 	system("pause>0");
 
