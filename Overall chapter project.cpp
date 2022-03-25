@@ -33,10 +33,16 @@ int main()
 	cin >> GuessNumber;
 
 
-	if (HostNumber == GuessNumber)
-		cout << "currect!";
-	else
-		cout << "failed!";
+	//if (HostNumber == GuessNumber)
+	//	cout << "currect!";
+	//else
+	//	cout << "failed!";
+
+	//Ternary operator
+	(HostNumber == GuessNumber)? cout << "currect!": cout << "failed!";
+
+
+
 
 
 	system("pause>0");
